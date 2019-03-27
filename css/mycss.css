@@ -1,0 +1,16 @@
+.top1{
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 13px;
+	color: #c7c7c7;
+	list-style: none;
+	background-color: #333333;
+}
+.footer-template-title a:hover{
+	color: #333;
+	
+}
+.footer-template-title {
+	font-size: 16px;
+	color: #333;
+}
