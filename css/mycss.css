@@ -1,16 +1,140 @@
-.top1{
-	font-weight: bold;
-	text-decoration: none;
-	font-size: 13px;
-	color: #c7c7c7;
-	list-style: none;
-	background-color: #333333;
-}
-.footer-template-title a:hover{
-	color: #333;
-	
-}
-.footer-template-title {
-	font-size: 16px;
-	color: #333;
-}
+	.top{
+		height: 35px;
+		background-color: #0089cf;
+		font-size: 15px;
+		padding: 5px;
+		display: block;
+	}
+	.menu{
+		padding: 0;
+		margin: 0;
+		color: #333;
+		font-size: 13px;
+		display: block;
+	}
+	.menu ul {
+		list-style-type: none;
+		background: #1f5688;
+		text-align: center;
+		position: absolute;
+		width: 1070px;
+
+	}
+	.menu ul li ul.sub-menu{
+		z-index:400; 
+		width: auto;
+	}
+	.menu ul li ul.sub-menu li{
+		display: block; 
+	}
+	.menu ul li {
+		color: #f1f1f1;
+		display: inline-table;
+		width: 120px;
+		height: 40px;
+		line-height: 40px;
+		position: relative;		
+		border-bottom: 1px solid #484848;
+	}
+	.menu ul li a {
+		color: #f1f1f1;
+		text-decoration: none;
+		display: block;
+		font-weight: bold;
+	}
+	.menu ul li a:hover{
+		background: #f1f1f1;
+		color: #333;
+	}
+	.menu ul li > .sub-menu{
+		display: none;
+		position: absolute;
+
+	}
+	.menu ul li:hover .sub-menu{
+		display: block;
+		cursor: pointer;
+		padding: 10px;
+
+	}
+	#menu2{
+		padding: 0px;
+		margin: 0px;
+		z-index: 400;
+	}
+	#menu2 ul {
+		list-style-type: none;
+		background:#dfdfdf;
+		width: 200px;
+		height: 312px;
+		padding: 0;
+	}
+	#menu2 ul li {
+		width: auto;
+		height: 40px;
+		line-height: 40px;
+		border-bottom: 1px solid #e8e8e8;
+		padding: 0 1em;
+	}
+	#menu2 ul li a {
+		text-decoration: none;
+		color: #333;
+		font-weight: bold;
+		display: block;
+	}
+	#menu2 ul li:hover {
+		background: #fff;
+	}
+	#menu2 ul li:hover .sub-menu2{
+		display: block;
+	}
+	#menu2 ul li > .sub-menu2{
+		display: none;
+		position: absolute;
+	}
+
+	#menu2 ul li div.sub-menu2{
+		background-color: #fff;     
+		left: 200px;
+	    z-index: 400;
+	    width: 868px;
+	    top: 0;
+ 
+	}
+	#menu2 ul li div.sub-menu2 ul {  
+		padding-left: 0;
+	}
+
+	#menu2 ul li div.sub-menu2 li{
+		background-color: #fff;
+	}
+	input {
+		padding-left: 8
+	}
+	.aaa{
+	position: relative;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+	}
+	.aaa img {
+		width: 100%;
+	}
+	.aaa:hover .aaa-detail {
+		display: block;
+	}
+
+	.aaa .aaa-detail {    
+	display: none;
+    position: absolute;
+    height: 300px;
+    top: 0;
+    text-align: center;
+    /* height: auto; */
+    width: 100%;
+    background: #cccccc9e;
+	}
+	.sub-menu-letf{
+		color: red;
+		font-size: 21px;
+	}

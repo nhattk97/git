@@ -10,87 +10,7 @@
 	<link rel="stylesheet" href="css/mycss.css">
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
-	<style>
-	.top{
-		height: 35px;
-		background-color: #0089cf;
-		font-size: 15px;
-		padding: 5px;
-		display: block;
-	}
-	.menu{
-		padding: 0;
-		margin: 0;
-		color: #333;
-		font-size: 13px;
-		display: block;
-	}
-	.menu ul {
-		list-style-type: none;
-		background: #1f5688;
-		text-align: center;
-		position: absolute;
-		width: 1070px;
-	}
-	.menu ul li {
-		color: #f1f1f1;
-		display: inline-table;
-		width: 120px;
-		height: 40px;
-		line-height: 40px;
-		position: relative;
-		float: left;
-		border-bottom: 1px solid #484848;
-	}
-	.menu ul li a {
-		color: #f1f1f1;
-		text-decoration: none;
-		display: block;
-		font-weight: bold;
-	}
-	.menu ul li a:hover{
-		background: #f1f1f1;
-		color: #333;
-	}
-	.menu ul li > .sub-menu{
-		display: none;
-		position: absolute;
 
-	}
-	.menu ul li:hover .sub-menu{
-		display: block;
-		cursor: pointer;
-		padding: 10px;
-
-	}
-	#sub-menu2{
-		padding: 0px;
-		margin: 0px;
-	}
-	#sub-menu2 ul {
-		list-style-type: none;
-		background:#1f5688;
-		width: 200px;
-		height: 312px;
-	}
-	#sub-menu2 ul li {
-		width: auto;
-		height: 40px;
-		line-height: 40px;
-		border-bottom: 1px solid #e8e8e8;
-		padding: 0 1em;
-	}
-	#sub-menu2 ul li a {
-		text-decoration: none;
-		color: #333;
-		font-weight: bold;
-		display: block;
-	}
-	#sub-menu2 ul li:hover {
-		background: #cde2cd;
-	}
-
-</style>
 </head>	
 <body>
 	<div class="top">
@@ -106,6 +26,7 @@
 					|<a href="" style="color:white">Đăng Nhập</a> | <a href="" style="color:white">Đăng Ký</a>
 				</div>
 			</div>
+		</div>
 		</div>
 		<!-- đóng container -->
 		<div class="container mt-3">
@@ -159,47 +80,71 @@
 		</div>
 		<!-- đóng top  -->
 		<div class="menu">
-			<div class="container">
-				<div class="menu">
-					<div class="container">
-						<div class="row">
-							<ul>
-								<li class="fa fa-home" style="font-size: 17px;">| Danh Mục SP </li>
-								<li > <a href=""style="color: red;">SẢN PHẨM HOT</a></li>
-								<li > <a href=""style="color: red;">TRẢ GÓP</a>  </li>
-								<li><a href="#">TRẢ GÓP</a></li>
-								<li>
-									<a href="#">DỊCH VỤ</a>
-									<ul class="sub-menu">
-										<li><a href="#">Chế độ bảo hành</a></li>
-										<li><a href="#">Chính sách đổi trả</a></li>
-										<li><a href="#">Chính sách trả góp</a></li>
-										<li><a href="#">Cách tạo acc APPLE</a></li>
-										<li><a href="#">Dịch vụ cài đặt</a></li>
-										<li><a href="#">Sửa chửa Iphone Ipad</a></li>
-									</ul>
-								</li>
-								<li><a href="#">TIN TỨC</a></li>
-								<li><a href="#">ONE CHANEL</a></li>
-								<li>
-									<a href="#">TUYỂN DỤNG</a>
-									<ul class="sub-menu">
-										<li><a href="#">tuyển dụng</a></li>
-									</ul>
-								</li>
+			<div class="container mt-4">
+				<div class="row">
+					<ul>
+						<li class="fa fa-home" style="font-size: 17px;">| Danh Mục SP </li>
+						<li > <a href=""style="color: red;">SẢN PHẨM HOT</a></li>
+						<li > <a href=""style="color: red;">TRẢ GÓP</a>  </li>
+						<li><a href="#">TRẢ GÓP</a></li>
+						<li>
+							<a href="#">DỊCH VỤ</a>
+							<ul class="sub-menu">
+								<li><a href="#">Chế độ bảo hành</a></li>
+								<li><a href="#">Chính sách đổi trả</a></li>
+								<li><a href="#">Chính sách trả góp</a></li>
+								<li><a href="#">Cách tạo acc APPLE</a></li>
+								<li><a href="#">Dịch vụ cài đặt</a></li>
+								<li><a href="#">Sửa chửa Iphone Ipad</a></li>
 							</ul>
+						</li>
+						<li><a href="#">TIN TỨC</a></li>
+						<li><a href="#">ONE CHANEL</a></li>
+						<li>
+							<a href="#">TUYỂN DỤNG</a>
+							<ul class="sub-menu">
+								<li><a href="#">tuyển dụng</a></li>
+							</ul>
+						</li>
+					</ul>
 
-						</div>
-					</div>
 				</div>
 			</div>
-		</div> <br> <br> 
+		</div> 
+		<!-- đóng menu1 -->
+		<br> <br> 
 		<div class="container">
 			<div class="row">
-				<div class="col-2" id="sub-menu2">
+				<div class="col-2" id="menu2">
 					<ul>
-						<li><a href="#">Điện Thoại</a></li>
-						<li><a href="#">Máy tính bảng</a></li>
+						<li>
+							<a href="#">Điện Thoại</a>
+							<div class="sub-menu2">
+								<span class="sub-menu-letf">Dien Thoai</span>
+								<ul>
+									<li><a href="">1111111</a></li>
+									<li><a href="">1111111</a></li>
+									<li><a href="">1111111</a></li>
+									<li><a href="">1111111</a></li>
+									<li><a href="">1111111</a></li>
+									<li><a href="">1111111</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Máy tính bảng</a>
+							<div class="sub-menu2">
+								<ul>
+									<li>222222222222</li>
+									<li>222222222222</li>
+									<li>222222222222</li>
+									<li>222222222222</li>
+									<li>222222222222</li>
+									<li>222222222222</li>
+									<li>222222222222</li>
+								</ul>
+							</div>
+						</li>
 						<li><a href="#">Macbook</a></li>
 						<li><a href="#">Tivi Xiaomi</a></li>
 						<li><a href="#">Kho máy cũ</a></li>
@@ -269,13 +214,24 @@
 			</div>
 		</div> 
 		<!-- đóng menu -->
-		
+		<div class="container">
+
+				<div class="row" style="margin-left: 5px;">					
+					<img src="image/qc1.jpg" alt="">
+					<img src="image/qc2.jpg" alt="">
+					<img src="image/qc3.jpg" alt="">				
+
+			</div>
+		</div>
+	<div class="aaa">
+		<img src="image/qc1.jpg" alt="">
+		<div class="aaa-detail">
+			<span>hfdkhklsdgkl</span>
+		</div>
 	</div>
-
-
-</body>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+	</body>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
