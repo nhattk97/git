@@ -8,14 +8,73 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/mystyle.css">
 	<link rel="stylesheet" href="css/mycss.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
 	<style>
 	.top{
 		height: 35px;
 		background-color: #0089cf;
 		font-size: 15px;
 		padding: 5px;
+		display: block;
 	}
+	.menu{
+		padding: 0;
+		margin: 0;
+		color: #333;
+		font-size: 13px;
+		display: block;
+	}
+	.menu ul {
+		list-style-type: none;
+		background: #1f5688;
+		text-align: center;
+		position: absolute;
+	}
+	.menu ul li {
+		color: #f1f1f1;
+		display: inline-table;
+		width: 120px;
+		height: 40px;
+		line-height: 40px;
+		position: relative;
+		float: left;
+		border-bottom: 1px solid #484848;
+	}
+	.menu ul li a {
+		color: #f1f1f1;
+		text-decoration: none;
+		display: block;
+		font-weight: bold;
+	}
+	.menu ul li a:hover{
+		background: #f1f1f1;
+		color: #333;
+	}
+	.menu ul li > .sub-menu{
+		display: none;
+		position: absolute;
+
+	}
+	.menu ul li:hover .sub-menu{
+		display: block;
+		cursor: pointer;
+		padding: 10px;
+
+	}
+	.menu2{
+		color: #333;
+		font-size: 13px;
+		font-size: 20px;
+		
+	}
+	.menu2 ul {
+		list-style-type: none;
+		background: #1f5688;
+		text-align: center;
+		position: absolute;
+	}
+
 </style>
 </head>	
 <body>
@@ -85,10 +144,56 @@
 			</div>
 		</div>
 	</div>
+	<br><br><br> <br> <br>
 	<!-- đóng top  -->
 	<div class="menu">
-		<div class="menu">
-			Đây là menu top 1
+		<div class="container">
+			<div class="row">
+				<ul>
+					<li class="fa fa-home" style="font-size: 17px;">| Danh Mục SP</li>
+					<li > <a href=""style="color: red;">SẢN PHẨM HOT</a></li>
+					<li > <a href=""style="color: red;">TRẢ GÓP</a>  </li>
+					<li><a href="#">TRẢ GÓP</a></li>
+					<li>
+						<a href="#">DỊCH VỤ</a>
+						<ul class="sub-menu">
+							<li><a href="#">Chế độ bảo hành</a></li>
+							<li><a href="#">Chính sách đổi trả</a></li>
+							<li><a href="#">Chính sách trả góp</a></li>
+							<li><a href="#">Cách tạo acc APPLE</a></li>
+							<li><a href="#">Dịch vụ cài đặt</a></li>
+							<li><a href="#">Sửa chửa Iphone Ipad</a></li>
+						</ul>
+					</li>
+					<li><a href="#">TIN TỨC</a></li>
+					<li><a href="#">ONE CHANEL</a></li>
+					<li>
+						<a href="#">TUYỂN DỤNG</a>
+						<ul class="sub-menu">
+							<li><a href="#">tuyển dụng</a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			</div>
+		</div>
+	</div>
+	<br> <br>
+	<div class="menu2">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<ul>
+						<li><a href="" class="fa fa-phone"> Điện Thoại</a></li>
+						<li><a href=""> Máy Tính Bảng</a></li>
+						<li><a href=""> Macbook</a></li>
+						<li><a href=""> Tivi Xiaomi</a></li>
+						<li><a href=""> Kho máy cũ</a></li>
+						<li><a href=""> Phụ Kiện</a></li>
+						<li><a href=""> Kho máy xã hàng</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 
