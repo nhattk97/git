@@ -30,6 +30,7 @@
 		background: #1f5688;
 		text-align: center;
 		position: absolute;
+		width: 1070px;
 	}
 	.menu ul li {
 		color: #f1f1f1;
@@ -62,17 +63,31 @@
 		padding: 10px;
 
 	}
-	.menu2{
-		color: #333;
-		font-size: 13px;
-		font-size: 20px;
-		
+	#sub-menu2{
+		padding: 0px;
+		margin: 0px;
 	}
-	.menu2 ul {
+	#sub-menu2 ul {
 		list-style-type: none;
-		background: #1f5688;
-		text-align: center;
-		position: absolute;
+		background:#1f5688;
+		width: 200px;
+		height: 312px;
+	}
+	#sub-menu2 ul li {
+		width: auto;
+		height: 40px;
+		line-height: 40px;
+		border-bottom: 1px solid #e8e8e8;
+		padding: 0 1em;
+	}
+	#sub-menu2 ul li a {
+		text-decoration: none;
+		color: #333;
+		font-weight: bold;
+		display: block;
+	}
+	#sub-menu2 ul li:hover {
+		background: #cde2cd;
 	}
 
 </style>
@@ -92,110 +107,171 @@
 				</div>
 			</div>
 		</div>
-		<br>
 		<!-- đóng container -->
-		<div class="container">
+		<div class="container mt-3">
 			<div class="row" >
-			<div class="col-3" style="">
-				<img src="image/logo.png" style="width: 240px; height: 87px;">
-			</div>
-			<div class="col-6">
-				<div class="row">
-					<div class="col-3">
-						<i class="mt-2  fa fa-google " style="font-size: 40px;"></i>
-						<br>
-						<b style="font-size: 13px;color: red;">Hàng chính hãng</b>
+				<div class="col-3" style="">
+					<img src="image/logo.png" style="width: 240px; height: 87px;">
+				</div>
+				<div class="col-6">
+					<div class="row">
+						<div class="col-3">
+							<i class="mt-2  fa fa-google " style="font-size: 40px;"></i>
+							<br>
+							<b style="font-size: 13px;color: red;">Hàng chính hãng</b>
 
-						
-					</div>
-					<div class="col-3">
-						<i class="mt-2  fa fa-google " style="font-size: 40px;"></i>
-						<br>
-						<b style="font-size: 13px;color: red;">Free vận chuyển</b>
 
-						
-					</div>
-					<div class="col-3">
-						<i class="mt-2  fa fa-google " style="font-size: 40px;"></i>
-						<br>
-						<b style="font-size: 13px;color: red;">Mua trả góp</b>
+						</div>
+						<div class="col-3">
+							<i class="mt-2  fa fa-google " style="font-size: 40px;"></i>
+							<br>
+							<b style="font-size: 13px;color: red;">Free vận chuyển</b>
 
-						
-					</div>
-					<div class="col-3">
-						<i class="mt-2  fa fa-google " style="font-size: 40px;"></i>
-						<br>
-						<b style="font-size: 13px;color: red;">Bảo hành</b>
 
-						
+						</div>
+						<div class="col-3">
+							<i class="mt-2  fa fa-google " style="font-size: 40px;"></i>
+							<br>
+							<b style="font-size: 13px;color: red;">Mua trả góp</b>
+
+
+						</div>
+						<div class="col-3">
+							<i class="mt-2  fa fa-google " style="font-size: 40px;"></i>
+							<br>
+							<b style="font-size: 13px;color: red;">Bảo hành</b>
+
+
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-3">
-				<div class="input-group">
-					<input type="text" checked="form-control" placeholder="Nhập từ khóa để tìm kiếm ..">
-					<span class="input-group-primary">
-						<button class="btn btn-primary">
-							<i class="fa fa-search"></i>
-						</button>
-					</span>
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
-	<br><br><br> <br> <br>
-	<!-- đóng top  -->
-	<div class="menu">
-		<div class="container">
-			<div class="row">
-				<ul>
-					<li class="fa fa-home" style="font-size: 17px;">| Danh Mục SP</li>
-					<li > <a href=""style="color: red;">SẢN PHẨM HOT</a></li>
-					<li > <a href=""style="color: red;">TRẢ GÓP</a>  </li>
-					<li><a href="#">TRẢ GÓP</a></li>
-					<li>
-						<a href="#">DỊCH VỤ</a>
-						<ul class="sub-menu">
-							<li><a href="#">Chế độ bảo hành</a></li>
-							<li><a href="#">Chính sách đổi trả</a></li>
-							<li><a href="#">Chính sách trả góp</a></li>
-							<li><a href="#">Cách tạo acc APPLE</a></li>
-							<li><a href="#">Dịch vụ cài đặt</a></li>
-							<li><a href="#">Sửa chửa Iphone Ipad</a></li>
-						</ul>
-					</li>
-					<li><a href="#">TIN TỨC</a></li>
-					<li><a href="#">ONE CHANEL</a></li>
-					<li>
-						<a href="#">TUYỂN DỤNG</a>
-						<ul class="sub-menu">
-							<li><a href="#">tuyển dụng</a></li>
-						</ul>
-					</li>
-				</ul>
-			
-			</div>
-		</div>
-	</div>
-	<br> <br>
-	<div class="menu2">
-		<div class="container">
-			<div class="row">
 				<div class="col-3">
+					<div class="input-group">
+						<input type="text" checked="form-control" placeholder="Nhập từ khóa để tìm kiếm ..">
+						<span class="input-group-primary">
+							<button class="btn btn-primary">
+								<i class="fa fa-search"></i>
+							</button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- đóng top  -->
+		<div class="menu">
+			<div class="container">
+				<div class="menu">
+					<div class="container">
+						<div class="row">
+							<ul>
+								<li class="fa fa-home" style="font-size: 17px;">| Danh Mục SP </li>
+								<li > <a href=""style="color: red;">SẢN PHẨM HOT</a></li>
+								<li > <a href=""style="color: red;">TRẢ GÓP</a>  </li>
+								<li><a href="#">TRẢ GÓP</a></li>
+								<li>
+									<a href="#">DỊCH VỤ</a>
+									<ul class="sub-menu">
+										<li><a href="#">Chế độ bảo hành</a></li>
+										<li><a href="#">Chính sách đổi trả</a></li>
+										<li><a href="#">Chính sách trả góp</a></li>
+										<li><a href="#">Cách tạo acc APPLE</a></li>
+										<li><a href="#">Dịch vụ cài đặt</a></li>
+										<li><a href="#">Sửa chửa Iphone Ipad</a></li>
+									</ul>
+								</li>
+								<li><a href="#">TIN TỨC</a></li>
+								<li><a href="#">ONE CHANEL</a></li>
+								<li>
+									<a href="#">TUYỂN DỤNG</a>
+									<ul class="sub-menu">
+										<li><a href="#">tuyển dụng</a></li>
+									</ul>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <br> <br> 
+		<div class="container">
+			<div class="row">
+				<div class="col-2" id="sub-menu2">
 					<ul>
-						<li><a href="" class="fa fa-phone"> Điện Thoại</a></li>
-						<li><a href=""> Máy Tính Bảng</a></li>
-						<li><a href=""> Macbook</a></li>
-						<li><a href=""> Tivi Xiaomi</a></li>
-						<li><a href=""> Kho máy cũ</a></li>
-						<li><a href=""> Phụ Kiện</a></li>
-						<li><a href=""> Kho máy xã hàng</a></li>
+						<li><a href="#">Điện Thoại</a></li>
+						<li><a href="#">Máy tính bảng</a></li>
+						<li><a href="#">Macbook</a></li>
+						<li><a href="#">Tivi Xiaomi</a></li>
+						<li><a href="#">Kho máy cũ</a></li>
+						<li><a href="#">Phụ kiện</a></li>
+						<li><a href="#">Kho xã hàng</a></li>
 					</ul>
 				</div>
+				<div class="col-10">
+					<div class="container">
+						<div class="row">
+							<div class="col-7" style="float: left;">
+								<div id="slider1" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<!-- Phần điều hướng -->
+										<li data-target="#slider1" data-slide-to="0" class="active"></li>
+										<li data-target="#slider1" data-slide-to="1"></li>
+										<li data-target="#slider1" data-slide-to="2"></li>
+									</ol>
+									<!-- nội dung của đối tượng slide -->
+									<div class="carousel-inner" role="listbox">
+										<!-- đây là 1 trang slide -->
+										<div class="carousel-item active">
+											<img src="image/nav1.jpg">
+											<div class="carousel-caption">
+												<h3>Tiêu Đề 1</h3>
+											</div>
+											<!-- ở đây chúng ta có thể đưa thêm nội dung văn vản -->
+										</div>
+										<div class="carousel-item">
+											<img src="image/nav2.jpg">
+											<div class="carousel-caption">
+												<h3>Tiêu Đề 2</h3>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="image/nav3.jpg">
+											<div class="carousel-caption">
+												<h3>Tiêu Đề 3</h3>
+											</div>
+										</div>
+									</div> <!-- đóng slide -->
+
+									<!-- Hai nút tới lui -->
+									<!-- nút lui  -->
+									<a class="left carousel-control-prev" href="#slider1" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon"></span>
+
+									</a>
+									<!-- nút tới (next) -->
+									<a class="right carousel-control-next" href="#slider1" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" ></span>
+
+									</a>
+								</div> <!-- đóng đối tượng carousel -->
+							</div>
+							<div class="col-4">
+								<div>
+									<img src="image/nav6.jpg" alt="">						
+								</div>
+								<div class="mt-2">
+									<img src="image/nav7.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
+		</div> 
+		<!-- đóng menu -->
+		
 	</div>
+
 
 </body>
 <script src="js/jquery-3.3.1.min.js"></script>
